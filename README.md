@@ -68,3 +68,27 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+# FrontEnd Folder Structure
+
+```
+frontend/
+├── public/
+│   └── index.html
+├── src/
+│   ├── api/                 # API calls to middleware
+│   │   └── userApi.js
+│   ├── components/          # Reusable UI components
+│   │   └── Navbar.jsx
+│   ├── pages/               # Route-level components
+│   │   └── Home.jsx
+│   ├── App.jsx
+│   ├── index.js
+│   └── styles/              # CSS or Tailwind configs
+├── package.json
+├── .env                     # REACT_APP_API_URL=http://localhost:8000
+└── .gitignore
+```
+
+Installing
